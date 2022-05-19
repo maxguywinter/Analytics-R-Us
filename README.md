@@ -146,8 +146,8 @@ Additionally, table 1 illustrates the correlation tests employed to reinforce wh
 
 
 Table 1. Model Performance
+	<img width="340" alt="Screenshot 2022-05-19 at 13 06 58" src="https://user-images.githubusercontent.com/97530878/169289575-8e61540a-8a20-45eb-891f-a239abc9c97d.png">
 
-	<img width="349" alt="image" src="https://user-images.githubusercontent.com/97530878/169287931-71257012-8701-4746-8414-a9419cdc41d6.png">
 
 Figure 12. Predicted vs Actual Plots
 ![image](https://user-images.githubusercontent.com/97530878/169287985-60983fec-a1c1-4ece-a64b-57ae290f940e.png)
