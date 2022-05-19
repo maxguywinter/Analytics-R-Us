@@ -146,8 +146,7 @@ Additionally, table 1 illustrates the correlation tests employed to reinforce wh
 
 
 Table 1. Model Performance
-
-	<img width="340" alt="Screenshot 2022-05-19 at 13 06 58" src="https://user-images.githubusercontent.com/97530878/169289575-8e61540a-8a20-45eb-891f-a239abc9c97d.png">
+<img width="340" alt="Screenshot 2022-05-19 at 13 06 58" src="https://user-images.githubusercontent.com/97530878/169289575-8e61540a-8a20-45eb-891f-a239abc9c97d.png">
 
 
 Figure 12. Predicted vs Actual Plots
@@ -155,7 +154,7 @@ Figure 12. Predicted vs Actual Plots
 
 To conclude, the three models can predict variable Y from the other six covariates, C1, C2, C3, C4, C5 and C6. Furthermore, the neural network model is the best suited out of the three models to predict variable Y as it had the lowest MAE, MSE and RMSE values. However, according to the R² value, all the models had a weak fit. Nevertheless, as discussed above, R² is an unsuitable metric for non-linear models. In contrast, the RMSE is argued to be a superior metric in determining and comparing models' performance. The neural network model produced the lowest RMSE of 305.05. Zach (2021) discloses that the RMSE should be normalised to understand better whether an RMSE is a good value. The formula to normalise the RMSE: 
 
-      Normalised RMSE = RMSE / (max value – min value) 
+  Normalised RMSE = RMSE / (max value – min value) 
 
 This formula produces a value between 0 and 1, where values closer to 0 represent better fitting models. The neural network normalised RMSE was 0.13, indicating that the model can accurately predict variable Y.
 
@@ -985,7 +984,7 @@ Final_NN_pred_plot_2 <- ggplot(test.r, aes(test.r$Y, pr.nn_final_)) +
 ggarrange(Reg4_pred_plot_2, RF_pred_plot_2,Final_NN_pred_plot_2 + rremove("x.text"), 
           ncol = 3, nrow = 1)
 
-Section 7. Bibliography 
+# Section 7. Bibliography 
 
 Alice, M., 2018. Fitting a Neural Network in R; neuralnet package. [Online]  Available at: https://datascienceplus.com/fitting-neural-network-in-r/ [Accessed 4 5 2022].
 Beck, M. W., 2018. NeuralNetTools: Visualization and Analysis Tools for Neural Networks. Journal of Statistical Software, 85(11), pp. 1-20.
