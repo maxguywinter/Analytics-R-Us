@@ -239,7 +239,9 @@ Figure 22. Neural Networks’ SSE
 
 Consequently, models from two layers with one neuron and two neurons to five neurons and five neurons were constructed and tested. Figure 22 demonstrates that neural network model 9 had the lowest test and train SSE error. Therefore, model 9 was used as the final neural network model to predict variable Y for this report. 
 
-6.4. R code   
+# 6.4. R code   
+
+```{r} 
 
 ##### Analytics’R’Us ###########################################################
 # Code developed by Max Winter                                                 #
@@ -984,6 +986,8 @@ Final_NN_pred_plot_2 <- ggplot(test.r, aes(test.r$Y, pr.nn_final_)) +
 # For Side by side model comparison 
 ggarrange(Reg4_pred_plot_2, RF_pred_plot_2,Final_NN_pred_plot_2 + rremove("x.text"), 
           ncol = 3, nrow = 1)
+
+```
 
 # Section 7. Bibliography 
 
